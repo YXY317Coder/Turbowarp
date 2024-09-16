@@ -42,3 +42,10 @@
 `1159` -> `-1159`
 
 `-1159` -> `1159`
+
+**`-x` to `+x`**
+
+**`+x` to `-x`**
+
+![image](https://github.com/user-attachments/assets/9a1657d5-c34a-4ff9-b124-afff5a35a65a)![image](https://github.com/user-attachments/assets/014c7597-1a46-4bd6-b148-fea77f484f98)
+
