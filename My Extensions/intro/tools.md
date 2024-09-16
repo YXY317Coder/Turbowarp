@@ -6,7 +6,7 @@
 ## 换行（line break）
 ![image](https://github.com/user-attachments/assets/bbe32d6c-a472-4aed-8bc5-0cadf6e79726)
 
-**It returns a line break character.**
+**返回一个换行符(It returns a line break character)**
 ### Sample
 ![image](https://github.com/user-attachments/assets/d5e6867a-db01-4fc1-b204-3ca44286e5e0)
 
