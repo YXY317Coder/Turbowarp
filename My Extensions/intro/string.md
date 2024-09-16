@@ -10,4 +10,13 @@
 ### Sample
 ![image](https://github.com/user-attachments/assets/a93d869b-615c-4613-b53d-ab9e92042884)
 
-## 
+---
+
+## 严格等于（Strictly equal）
+![image](https://github.com/user-attachments/assets/c6310905-a64e-4ef8-b402-6238613b183d)
+
+**判断两个空的内容是否完全相同（Determine whether two empty contents are completely identical）**
+
+![image](https://github.com/user-attachments/assets/7a074d65-69d6-49df-baa0-3b6a73216c44)![image](https://github.com/user-attachments/assets/5135b3ad-5634-41b8-8dc2-f0e768ebef7c)
+### Sample
+![image](https://github.com/user-attachments/assets/f2716c72-fd6b-4034-a3e4-06d6829dff09)
