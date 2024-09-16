@@ -122,7 +122,7 @@ class Block {
           {
             opcode: "unicodefrom",
             blockType: Scratch.BlockType.REPORTER,
-            text: Scratch.translate("[NUM] 对应的 Unicode"),
+            text: Scratch.translate("[NUM] 对应的 Unicode 字符"),
             arguments: {
               NUM: {
                 type: Scratch.ArgumentType.NUMBER,
