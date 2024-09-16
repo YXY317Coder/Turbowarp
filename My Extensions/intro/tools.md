@@ -31,3 +31,14 @@
 ![image](https://github.com/user-attachments/assets/9b00e6ce-a9bb-41ba-8510-c482a39da408)
 
 ---
+
+## 取反（Negation）
+![image](https://github.com/user-attachments/assets/0850953f-b3a7-4f25-b63e-d27f3d82f610)
+
+`123` -> `-123`
+
+`-123` -> `123`
+
+`1159` -> `-1159`
+
+`-1159` -> `1159`
