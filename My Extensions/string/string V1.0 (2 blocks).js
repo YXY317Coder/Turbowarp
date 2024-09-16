@@ -2,13 +2,13 @@ class Block {
   getInfo() {
     return {
       id: 'tools',
-      name: '工具',
+      name: '字符串处理',
       color1: "#963696",
       blocks: [
         {
           opcode: 'endl',
           blockType: Scratch.BlockType.REPORTER,
-          text: '换行'
+          text: '换行符'
         },
         {
           opcode: 'strictlyEquals',
