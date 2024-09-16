@@ -26,4 +26,5 @@
 ## 剩下的积木
 （参考拓展“文本”     refer to the extension `text`）
 
-![image](https://github.com/user-attachments/assets/dac706a2-93c7-4717-a029-3312c258ac70)
+![image](https://github.com/user-attachments/assets/dac706a2-93c7-4717-a029-3312c258ac70)![image](https://github.com/user-attachments/assets/45be471b-6234-4c39-86fe-0a8a2a0b992f)
+
