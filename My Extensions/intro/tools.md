@@ -3,7 +3,7 @@
 
 ---
 
-## 换行（line break）
+## 换行（Line break）
 ![image](https://github.com/user-attachments/assets/bbe32d6c-a472-4aed-8bc5-0cadf6e79726)
 
 **返回一个换行符（It returns a line break character）**
@@ -26,4 +26,8 @@
 ## 计算（Calculate）
 ![image](https://github.com/user-attachments/assets/ebd692cb-3db2-449b-9044-be872ee9286d)
 
-**计算框中的内容**
+**计算框中的内容（Calculate the content in the box and return the calculation result）**
+### Sample
+![image](https://github.com/user-attachments/assets/9b00e6ce-a9bb-41ba-8510-c482a39da408)
+
+---
