@@ -1,4 +1,3 @@
-
 let splitCache;
 let matchCache;
 
@@ -129,8 +128,64 @@ class Block {
                 defaultValue: 65,
               },
             },
+          },
+          "---",
+          {
+            opcode: "isLessOrEqual",
+
+            blockType: Scratch.BlockType.BOOLEAN,
+
+            text: "[A] <= [B]",
+            arguments: {
+              A: {
+                type: Scratch.ArgumentType.NUMBER,
+	defaultValue: 50,
+              },
+              B: {
+                type: Scratch.ArgumentType.NUMBER,
+                defaultValue: 50,
+              },
+            },
+          },
+          {
+            opcode: "isMoreOrEqual",
+
+            blockType: Scratch.BlockType.BOOLEAN,
+
+            text: "[A] >= [B]",
+            arguments: {
+              A: {
+                type: Scratch.ArgumentType.NUMBER,
+	defaultValue: 50,
+              },
+              B: {
+                type: Scratch.ArgumentType.NUMBER,
+                defaultValue: 50,
+              },
+            },
+          },
+          {
+            opcode: "clamp",
+
+            blockType: Scratch.BlockType.REPORTER,
+
+            text: Scratch.translate("将 [INPUT] 限制在 [MIN] 和 [MAX] 之间"),
+            arguments: {
+              INPUT: {
+                type: Scratch.ArgumentType.NUMBER,
+                defaultValue: 30,
+              },
+              MIN: {
+                type: Scratch.ArgumentType.NUMBER,
+                defaultValue: 25,
+              },
+              MAX: {
+                type: Scratch.ArgumentType.NUMBER,
+                defaultValue: 40,
+              },
+            },
           }
-      ],
+      ]
     };
   }
   endl() {
@@ -305,7 +360,13 @@ class Block {
         return false;
       }
     }
+    isLessOrEqual({ A, B }) {
+      return Scratch.Cast.compare(A, B) <= 0;
+    }
 
+    isMoreOrEqual({ A, B }) {
+      return Scratch.Cast.compare(A, B) >= 0;
+    }
     isCase(args, util) {
       const string = args.STRING.toString();
       const textCase = args.TEXTCASE.toString();
@@ -335,7 +396,16 @@ class Block {
           return false;
       }
     }
-
+        clamp({ INPUT, MIN, MAX }) {
+      INPUT = Scratch.Cast.toNumber(INPUT);
+      MIN = Scratch.Cast.toNumber(MIN);
+      MAX = Scratch.Cast.toNumber(MAX);
+      if (MIN > MAX) {
+        return Math.min(Math.max(INPUT, MAX), MIN);
+      } else {
+        return Math.min(Math.max(INPUT, MIN), MAX);
+      }
+    }
     toCase(args, util) {
       const string = args.STRING.toString();
       const textCase = args.TEXTCASE.toString();
