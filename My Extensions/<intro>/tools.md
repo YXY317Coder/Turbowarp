@@ -26,6 +26,9 @@
 ## 计算（Calculate）
 ![image](https://github.com/user-attachments/assets/ebd692cb-3db2-449b-9044-be872ee9286d)
 
+### 【注意】本块使用的是 `eval()` 代码，填入一些奇怪的代码可以使这个积木块含危险性。请尽量不要让这个积木块执行用户输入的内容。
+#### 【Warning】This block uses the 'eval()' code, and filling in some strange code can make this block dangerous. Please try not to let this block execute user input.
+
 **计算框中的内容（Calculate the content in the box and return the calculation result）**
 ### Sample
 ![image](https://github.com/user-attachments/assets/9b00e6ce-a9bb-41ba-8510-c482a39da408)
