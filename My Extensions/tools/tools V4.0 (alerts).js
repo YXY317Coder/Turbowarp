@@ -47,6 +47,9 @@ class Block {
             }
           }
         },
+	      {
+		      text: '---'
+	      },
         {
           opcode: 'alerter',
           blockType: Scratch.BlockType.COMMAND,
