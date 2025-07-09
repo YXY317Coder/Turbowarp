@@ -49,7 +49,7 @@ class Block {
         },
         {
           opcode: 'alerter',
-          blockType: Scratch.BlockType.,
+          blockType: Scratch.BlockType.COMMAND,
           text: 'alert [XXX]',
           arguments: {
             XXX: {
